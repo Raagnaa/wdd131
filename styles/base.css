@@ -18,6 +18,13 @@ header {
   color: #2b6cb0;
   margin-bottom: 0.5rem;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
 nav a {
   margin: 0 0.5rem;
   color: #2b6cb0;
