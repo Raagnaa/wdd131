@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive photo album showcasing beautiful temples around the world.">
+    <meta name="author" content="Emmanuel [Tu Apellido]">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <title>Temple Album | WDD 131 Project</title>
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menu-button">☰</button>
+        <nav id="nav-menu" class="hidden">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2>Beautiful Temples Around the World</h2>
+        <section class="gallery">
+            <figure>
+                <img src="images/saltlake.jpg" alt="Salt Lake Temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/mexicocity.jpeg" alt="Mexico City Temple">
+                <figcaption>Mexico City Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rome.jpeg" alt="Rome Temple">
+                <figcaption>Rome Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/tokyo.jpg" alt="Tokyo Temple">
+                <figcaption>Tokyo Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/paris.jpeg" alt="Paris Temple">
+                <figcaption>Paris Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/provo.jpg" alt="Provo City Center Temple">
+                <figcaption>Provo City Center Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/losangeles.jpeg" alt="Los Angeles Temple">
+                <figcaption>Los Angeles Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/hongkong.jpeg" alt="Hong Kong Temple">
+                <figcaption>Hong Kong Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/saopaulo.jpg" alt="São Paulo Temple">
+                <figcaption>São Paulo Temple</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Temple Album | Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/temples.js"></script>
+</body>
+
+</html>
