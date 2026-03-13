@@ -1,89 +1,92 @@
 body {
-  font-family: 'Roboto', Arial, sans-serif;
-  margin: 0;
-  background: #f7f7f7;
-  color: #222;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    color: #222;
 }
 
 header {
-  background: #fff;
-  padding: 1rem;
-  text-align: center;
-  border-bottom: 1px solid #ddd;
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
 }
+
 #course-title {
-  display: block;
-  font-weight: 700;
-  font-size: 1.3rem;
-  color: #2b6cb0;
-  margin-bottom: 0.5rem;
+    display: block;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #2b6cb0;
+    margin-bottom: 0.5rem;
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
 nav a {
-  margin: 0 0.5rem;
-  color: #2b6cb0;
-  text-decoration: none;
-  font-weight: 500;
+    margin: 0 0.5rem;
+    color: #2b6cb0;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 nav a:hover {
-  background: #e6f0ff;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
+    background: #e6f0ff;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
 }
 
 main {
-  max-width: 1000px;
-  margin: 1.5rem auto;
-  padding: 0 1rem;
+    max-width: 1000px;
+    margin: 1.5rem auto;
+    padding: 0 1rem;
 }
+
 h1 {
-  text-align: center;
-  margin-bottom: 1rem;
-  font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 700;
 }
 
 .main-row {
-  display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 1rem;
 }
 
 .card {
-  background: #fff;
-  padding: 1rem;
-  border-radius: 6px;
-  border: 1px solid #e6e6e6;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #e6e6e6;
 }
 
 .small-img {
-  width: 140px;
-  height: auto;
-  display: block;
-  margin: 0.5rem 0;
-  border-radius: 6px;
+    width: 140px;
+    height: auto;
+    display: block;
+    margin: 0.5rem 0;
+    border-radius: 6px;
 }
+
 .flag {
-  width: 90px;
-  display: block;
-  margin-top: 0.5rem;
+    width: 90px;
+    display: block;
+    margin-top: 0.5rem;
 }
 
 footer {
-  text-align: center;
-  color: #666;
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
+    text-align: center;
+    color: #666;
+    margin: 1.5rem 0;
+    font-size: 0.95rem;
 }
 
 @media (max-width: 760px) {
-  .main-row {
-    grid-template-columns: 1fr;
-  }
+    .main-row {
+        grid-template-columns: 1fr;
+    }
 }
