@@ -103,7 +103,7 @@ footer {
     font-size: 1.5rem;
     background: none;
     border: none;
-    color: #036;
+    color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
