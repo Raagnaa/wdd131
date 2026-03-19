@@ -30,7 +30,7 @@ h1 {
 }
 
 nav {
-    background-color: #036;
+    background-color: rgb(68, 66, 66);
 }
 
 nav ul {
@@ -103,7 +103,7 @@ footer {
     font-size: 1.5rem;
     background: none;
     border: none;
-    color: rgb(255, 255, 255);
+    color: #036;
     cursor: pointer;
 }
 
