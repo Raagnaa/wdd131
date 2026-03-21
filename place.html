@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>National Park Banff</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">National Park Banff</h1>
+            <p class="site-subtitle">Weather and Places to Visit</p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <picture>
+            <img src="images/national_park_baff.jpeg" alt="Panoramic view of Banff National Park" loading="lazy">
+        </picture>
+        <div class="hero-caption container"> 
+            <h2>Welcome to the National Park Banff</h2>
+            <p>Rocky Mountain peaks, glacial lakes, and adventure come together in Banff National Park - Canada’s first
+                national park and the flagship of the nation’s park system. Banff is part of the Canadian Rocky Mountain
+                Parks UNESCO World Heritage Site.</p>
+        </div>
+    </section>
+
+    <main class="container main-grid">
+        <section class="intro">
+            <h2>About the place</h2>
+            <p>The dense forests, glacial waters, soaring peaks, and plunging canyons of Banff National Park provide
+                important habitat for 56 species of mammals, 300 species of birds, and more than 800 species of plants.
+                Building on a long history of wildlife research and conservation, Parks Canada continues to work to
+                protect and restore this special place for future generations.</p>
+        </section>
+
+        <section class="weather">
+            <h2 class="weather-title">Weather</h2>
+
+            <div class="weather-data">
+                <p><strong>Temperature (°F):</strong> <span id="tempF">--</span></p>
+                <p><strong>Wind Speed (mph):</strong> <span id="windMph">--</span></p>
+                <p><strong>Wind Chill:</strong> <span id="windChill">--</span></p>
+            </div>
+        </section>
+
+        <section class="places">
+            <h2>Recommended Activities</h2>
+            <ul>
+                <li>Bird Watching</li>
+                <li>Hiking</li>
+                <li>Camping</li>
+                <li>Wildlife Viewing</li>
+                <li>Photography</li>
+                <li>Ice skating</li>
+            </ul>
+        </section>
+
+        <section class="info">
+            <h2>Practical Information</h2>
+            <p>Banff National Park is open year-round, located 150 km west of Calgary.
+                Admission requires a Parks Canada pass, with extra fees for camping and backcountry permits.
+                Summer offers hiking and lake visits, while winter is ideal for skiing.
+                Weather changes quickly—pack layers and be prepared for wildlife encounters.
+                Book accommodations early, especially in peak season.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <p>&copy; <span id="currentYear"></span> National Park Banff</p>
+            <p>Last modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
