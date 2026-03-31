@@ -12,6 +12,18 @@ h3 {
     color: #1B4D3E;
 }
 
+.deep-green {
+    color: #1B4D3E;
+}
+
+.ocean-blue {
+    color: #3A6EA5;
+}
+
+.warm-beige {
+    color: #E6D5B8;
+}
+
 nav ul {
     list-style: none;
     display: flex;
