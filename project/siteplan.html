@@ -116,24 +116,35 @@
 				</select>
 
 
-				<p>What type of traver are you></p>
-				<label><input type="radio" name="traveler" value="adventurer" required> Adventurer</label>
-				<label><input type="radio" name="traveler" value="relaxer" required> Relaxer</label>
-				<label><input type="radio" name="traveler" value="photographer" required> Photographer</label>
-				<label><input type='radio' name='traveler' value='family' required> Family</label>
-				<label><input type='radio' name='traveler' value='solo' required> Solo</label>
+				<p>What type of traveler are you?</p>
+				
+					<label for="adventurer">Adventurer</label>
+					<input type="radio" id="adventurer" name="traveler" value="adventurer" required>
+					
+					<label for="relaxer">Relaxer</label>
+					<input type="radio" id="relaxer" name="traveler" value="relaxer">
 
-				<label for="visitdate">Preferred visit date:</label>
-				<input type="date" id="visitdate" name="visitdate" required>
+					<label for="photographer">Photographer</label>
+					<input type="radio" id="photographer" name="traveler" value="photographer">
+
+					<label for="family">Family</label>
+					<input type="radio" id="family" name="traveler" value="family">
+
+					<label for="solo">Solo</label>
+					<input type="radio" id="solo" name="traveler" value="solo">
+
+
+					<label for="visitdate">Preferred visit date:</label>
+					<input type="date" id="visitdate" name="visitdate" required>
 
 				<p>Activities you enjoy</p>
-				<label for="hiking"><input type='checkbox' id="hiking" name="activities"	value="hiking"> Hiking</label>
-				<label for="swimming"><input type='checkbox' id="swimming" name="activities" value="swimming"> Swimming</label>
-				<label for="camping"><input type="checkbox" id="camping" name="activities" value="camping"> Camping</label>
-				<label for="photography"><input type="checkbox" id="photography" name="activities" value="photography"> Photography</label>
+					<label for="hiking"><input type='checkbox' id="hiking" name="activities"	value="hiking"> Hiking</label>
+					<label for="swimming"><input type='checkbox' id="swimming" name="activities" value="swimming"> Swimming</label>
+					<label for="camping"><input type="checkbox" id="camping" name="activities" value="camping"> Camping</label>
+					<label for="photography"><input type="checkbox" id="photography" name="activities" value="photography"> Photography</label>
 
 				<label for="comments">Additional comments:</label>
-				<textarea id="comments" name="comments" rows="4" cols="40" placeholder="Write your thoughts here..."></textarea>
+					<textarea id="comments" name="comments" rows="4" cols="40" placeholder="Write your thoughts here..."></textarea>
 
 				<input type="submit" value="Submit Review">
 			</form>
