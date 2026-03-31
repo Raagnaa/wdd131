@@ -107,8 +107,8 @@
 		<section>
 			<h2>Form Example</h2>
 			<form method="get" action="review.html">
-				<label for="destination">Select a Product</label>
-				<select id="destination" name="destination" required>
+				<label for="product">Select a Product</label>
+				<select id="product" name="product" required>
 					<option value="" disabled selected>Select a product</option>
 					<option value="mountains">Mountains</option>
 					<option value="beach">Beach</option>
@@ -127,10 +127,13 @@
 				<imput type="date" id="visitdate" name="visitdate" required>
 
 				<p>Activities you enjoy</p>
-				<label><input type='checkbox' name="activities"	value="hiking"> Hiking</label>
-				<label><input type='checkbox' name="activities" value="swimming"> Swimming</label>
-				<label><input type="checkbox" name="activities" value="camping"> Camping</label>
-				<label><input type="checkbox" name="activities" value="photography"> Photography</label>
+				<label for="hiking"><input type='checkbox' id="hiking" name="activities"	value="hiking"> Hiking</label>
+				<label for="swimming"><input type='checkbox' id="swimming" name="activities" value="swimming"> Swimming</label>
+				<label for="camping"><input type="checkbox" id="camping" name="activities" value="camping"> Camping</label>
+				<label for="photography"><input type="checkbox" id="photography" name="activities" value="photography"> Photography</label>
+
+				<label for="comments">Additional comments:</label>
+				<textarea id="comments" name="comments" rows="4" cols="40" placeholder="Write your thoughts here..."></textarea>
 
 				<input type="submit" value="Submit Review">
 			</form>
