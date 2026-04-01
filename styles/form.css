@@ -46,3 +46,41 @@ input[type="submit"]  {
 input[type="submit"]:hover  {
   background: #4a148c;
 }
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input, select, textarea {
+    font-size: 1rem;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 601px) {
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  form label, form legend {
+    grid-column: span 2;
+  }
+
+  input[type="submit"] {
+    grid-column: span 2;
+    justify-self: center;
+    width: 200px;
+  }
+}
