@@ -1,0 +1,31 @@
+export const locations = [
+  { id: "b1", name: "The Maldives", cat: "Beaches", img: "images/beach/maldives.webp", desc: "Crystal clear lagoons and overwater villas in a tropical paradise.", bestSeason: "December to April", activities: "Snorkeling / Diving / Relaxation" },
+  { id: "b2", name: "Santorini Oia", cat: "Beaches", img: "images/beach/santorini-oia.webp", desc: "White-washed buildings with blue domes overlooking the Aegean Sea.", bestSeason: "May to October", activities: "Sightseeing / Photography / Sunset watching" },
+  { id: "b3", name: "Bora Bora Lagoon", cat: "Beaches", img: "images/beach/bora-bora.webp", desc: "Scuba diving and relaxation in the Pearl of the Pacific.", bestSeason: "May to October", activities: "Scuba diving / Lagoon tours / Honeymoon retreats" },
+  { id: "b4", name: "Vaadhoo Bioluminescence", cat: "Beaches", img: "images/beach/vaadhoo.webp", desc: "Watch the 'Sea of Stars' glow brightly at night.", bestSeason: "Year-round", activities: "Night walks / Stargazing / Photography" },
+  { id: "b5", name: "Whitehaven Beach", cat: "Beaches", img: "images/beach/white-heaven.webp", desc: "Pristine silica sands surrounded by azure water in Australia.", bestSeason: "September to March", activities: "Swimming / Sailing / Beach walks" },
+
+  { id: "m1", name: "Mount Fuji", cat: "Mountains", img: "images/mountain/mount-fuji.webp", desc: "Japan's iconic, snow-capped sacred peak near Tokyo.", bestSeason: "July to September", activities: "Climbing / Hiking / Cultural visits" },
+  { id: "m2", name: "Moraine Lake", cat: "Mountains", img: "images/mountain/moraine-lake.webp", desc: "The turquoise jewel of the Canadian Rockies in Banff.", bestSeason: "June to September", activities: "Kayaking / Hiking / Photography" },
+  { id: "m3", name: "Dolomites Peaks", cat: "Mountains", img: "images/mountain/dolomites-peak.webp", desc: "Jagged limestone peaks in the magnificent Italian Alps.", bestSeason: "June to September", activities: "Trekking / Skiing / Rock climbing" },
+  { id: "m4", name: "Machu Picchu", cat: "Mountains", img: "images/mountain/machu-pichu.webp", desc: "Ancient Incan citadel high in the Andes Mountains of Peru.", bestSeason: "April to October", activities: "Historical tours / Hiking / Cultural exploration" },
+  { id: "m5", name: "Swiss Alps Zermatt", cat: "Mountains", img: "images/mountain/zermatt.webp", desc: "A car-free village under the iconic Matterhorn peak.", bestSeason: "December to March", activities: "Skiing / Snowboarding / Alpine hiking" },
+
+  { id: "f1", name: "Arashiyama Bamboo", cat: "Forests", img: "images/forest/arashiyama-bamboo.webp", desc: "A meditative path through towering green bamboo in Kyoto.", bestSeason: "Spring and Autumn", activities: "Walking / Photography / Cultural visits" },
+  { id: "f2", name: "Black Forest", cat: "Forests", img: "images/forest/black-forest.webp", desc: "Dense, magical evergreen woodlands and folklore in Germany.", bestSeason: "May to September", activities: "Hiking / Folklore tours / Cycling" },
+  { id: "f3", name: "Redwood National Park", cat: "Forests", img: "images/forest/redwood-park.webp", desc: "Walk among the tallest trees on Earth in California.", bestSeason: "Year-round", activities: "Hiking / Camping / Wildlife watching" },
+  { id: "f4", name: "Hallerbos 'Blue Forest'", cat: "Forests", img: "images/forest/blue-forest.webp", desc: "The magical forest in Belgium covered in wild bluebells.", bestSeason: "April to May", activities: "Walking / Photography / Nature observation" },
+  { id: "f5", name: "Amazon Rainforest", cat: "Forests", img: "images/forest/amazon-rainforest.webp", desc: "The world's largest, most biodiverse tropical jungle in Brazil.", bestSeason: "June to November", activities: "Jungle tours / Wildlife watching / River cruises" },
+
+  { id: "d1", name: "Sahara Dunes", cat: "Desert", img: "images/desert/sahara.webp", desc: "Endless rolling waves of orange sand under the African sky.", bestSeason: "October to April", activities: "Camel rides / Desert camping / Sandboarding" },
+  { id: "d2", name: "Wadi Rum", cat: "Desert", img: "images/desert/wadi-rum.webp", desc: "The dramatic red-sand valley of the moon in Jordan.", bestSeason: "March to May / September to November", activities: "Jeep tours / Hiking / Stargazing" },
+  { id: "d3", name: "Antelope Canyon", cat: "Desert", img: "images/desert/antelope-canyon.webp", desc: "Swirling sandstone walls in the American Southwest.", bestSeason: "March to October", activities: "Photography / Guided tours / Hiking" },
+  { id: "d4", name: "Atacama Stargazing", cat: "Desert", img: "images/desert/atacama.webp", desc: "Explore the driest, clearest non-polar desert on Earth.", bestSeason: "Year-round", activities: "Astronomy tours / Hiking / Salt flat visits" },
+  { id: "d5", name: "Namib Desert", cat: "Desert", img: "images/desert/namib.webp", desc: "Ancient red dunes where the desert meets the Atlantic ocean.", bestSeason: "May to September", activities: "Dune climbing / Wildlife watching / Photography" },
+
+  { id: "s1", name: "Lapland Lights", cat: "Snow", img: "images/snow/lapland-lights.webp", desc: "Experience the Northern Lights from a Finland igloo.", bestSeason: "December to March", activities: "Aurora watching / Husky sledding / Snowmobiling" },
+  { id: "s2", name: "Banff Winter Wonderland", cat: "Snow", img: "images/snow/banff-wonderland.webp", desc: "Frozen lakes and pine trees in the heart of the snow.", bestSeason: "December to February", activities: "Skiing / Ice skating / Winter hiking" },
+  { id: "s3", name: "Jokulsarlon Glacial Lagoon", cat: "Snow", img: "images/snow/jokurlsarlon.webp", desc: "Watch blue icebergs drift on an Icelandic black sand beach.", bestSeason: "Year-round", activities: "Boat tours / Ice cave visits / Photography" },
+  { id: "s4", name: "Zermatt Matterhorn", cat: "Snow", img: "images/snow/zermatt-matterhorn.webp", desc: "A world-class ski village under the most famous peak.", bestSeason: "December to March", activities: "Skiing / Snowboarding / Alpine hiking" },
+  { id: "s5", name: "Antarctica Pristine Ice", cat: "Snow", img: "images/snow/antartica-pristine.webp", desc: "The final frontier of pristine glaciers and massive icebergs.", bestSeason: "November to March", activities: "Expedition cruises / Wildlife watching / Ice trekking" }
+];
